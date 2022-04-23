@@ -1,13 +1,31 @@
 .exchange-boxes {
     margin: auto;
     padding-top: 15rem;
+    max-width: 38rem;
+    display: flex;
 }
+
+@media screen and (max-width: 600px) {
+    .exchange-boxes {
+      width: 265px;
+      height: 340px;
+    }
+  }
+
 .brand-obsidiam {
     max-width: calc(100% - 362px)!important;
     min-width: 1170px;
     height: 110px;
     display: flex;
     flex-direction: column-reverse;
+}
+
+.text-center {
+    text-align: center;
+}
+
+img {
+    position: absolute;
 }
 
 .header-obsidiam {
@@ -20,16 +38,13 @@
         .img-header-1 {
             margin: 10px 0;
             max-height: 80px;
-            position: absolute;
             z-index: 1;
         }
         .img-header-2 {
-            position: absolute;
             max-height: 600px;
             top: 0rem;
         }
         .img-header-3 {
-            position: absolute;
             width: 330px;
             right: 75px;
             top: 13px;
