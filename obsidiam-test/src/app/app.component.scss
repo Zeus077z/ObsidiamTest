@@ -1,12 +1,37 @@
 .exchange-boxes {
     margin: auto;
-    padding-top: 1rem;
+    padding-top: 15rem;
+}
+.brand-obsidiam {
+    max-width: calc(100% - 362px)!important;
+    min-width: 1170px;
+    height: 110px;
+    display: flex;
+    flex-direction: column-reverse;
 }
 
 .header-obsidiam {
-    display: flex;
-    background-color: #20cafe;
+    background-color: #00D1FF;
     overflow: hidden;
-    padding: 20px 10px;
     box-sizing: border-box;
+    height: 140px;
+    width: 100%;
+    position: absolute;
+        .img-header-1 {
+            margin: 10px 0;
+            max-height: 80px;
+            position: absolute;
+            z-index: 1;
+        }
+        .img-header-2 {
+            position: absolute;
+            max-height: 600px;
+            top: 0rem;
+        }
+        .img-header-3 {
+            position: absolute;
+            width: 330px;
+            right: 75px;
+            top: 13px;
+        }
 }

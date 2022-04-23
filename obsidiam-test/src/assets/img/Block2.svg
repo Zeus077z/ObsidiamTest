@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="704px" height="600px" viewBox="0 0 704 600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Block 2</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing-2" transform="translate(276.000000, -63.000000)">
+            <g id="Block-2" transform="translate(76.000000, 363.000000) scale(-1, 1) translate(-76.000000, -363.000000) translate(-276.000000, 63.000000)">
+                <g id="Polygon-2" opacity="0.117921375" transform="translate(0.000000, 105.000000)" fill="#385AFF">
+                    <polygon id="Polygon" points="125 0 233.253175 62.5 233.253175 187.5 125 250 16.7468245 187.5 16.7468245 62.5"></polygon>
+                </g>
+                <polygon id="Polygon" fill="#C6DFFF" opacity="0.325443813" points="404 0 663.807621 150 663.807621 450 404 600 144.192379 450 144.192379 150"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
