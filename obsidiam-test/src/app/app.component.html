@@ -12,28 +12,36 @@
 
 <!-- Body Obsidiam -->
 
-  <div class="body-obsidiam">
-    <form>
-      <div class="">
-        <img src="assets/img/Dollar.png" class="img-dollar">
-          <span class="text-usd-btc"> to </span>     
-        <img src="assets/img/Bitcoin.png" class="img-bitcoin">
+<div class="body-obsidiam">
+  <form>
+    <div class="row container-over-convertion">
+      <div class="col align-over-convertion">
+        <img src="assets/img/Dollar.png" class="img-over-convertion">
       </div>
-      <div class="row exchange-boxes"> 
-        <hr class="hr-top">
-        <div class="col">      
-          <input type="number" class="form-control inputs-obsidiam" placeholder="Enter the amount">
-        </div>
-        <div class="col">
-          <input type="number" class="form-control inputs-obsidiam" placeholder="Currency equivalent">
-        </div>      
+      <div class="col align-over-convertion">
+        <span> to </span>
       </div>
-    </form>
-  </div>
-  <hr class="hr-bottom">
-  <label style="text-align: center;font-size: 11px;font-family: RalewayRegular;margin-top: 40px; position: absolute;top: 23rem; left: 42rem;"> Price : <span _ngcontent-lye-c8="" style="font-size: 16px;color:#2c3145">  1 Bitcoin ≈ <span _ngcontent-lye-c8="" class="number">60,000.000</span> USD</span></label>
-  <!-- <span>Price : 1 Bitcoin ≈ 60,000.000 USD</span> -->
-  <div class="col-xs-12 col-sm-12 col-lg-6 text-center" style="text-align: center;font-size: 11px;font-family: RalewayRegular; position: absolute; bottom: 16rem; left: 24rem; margin: auto;">***Exchange  at the best price currently available on the market. Keep in mind, the final execution price might be different from the market price displayed.</div>
+      <div class="col align-over-convertion">
+        <img src="assets/img/Bitcoin.png" class="img-over-convertion">
+      </div>
+    </div>
+    <div class="row convertion-boxes">
+      <hr class="hr-top">
+      <div class="col">
+        <input type="number" class="form-control inputs-obsidiam" id="number1" onkeyup="elevarAlCuadrado(this);" placeholder="Enter the amount">
+      </div>
+      <div class="col">
+        <input type="number" class="form-control inputs-obsidiam" id="number2" onkeyup="elevarAlCuadrado(this);" placeholder="Currency equivalent">
+      </div>
+    </div>
+  </form>
+</div>
+<hr class="hr-bottom">
+<label>
+  Price : <span style="font-size: 16px;color:#2c3145"> 1 Bitcoin ≈ <span class="number">60,000.000</span> USD</span></label>
+<div class="col-xs-12 col-sm-12 col-lg-6 text-center bottom-text">
+  ***Exchange at the best price currently available on the market. Keep in mind, the final execution price might be
+  different from the market price displayed.</div>
 
 <!-- Footer Obsidiam -->
 <div class="">
@@ -43,16 +51,17 @@
         <div class="row mt-3 custom-footer-container">
           <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
             <img class="img-header-1" src="assets/img/obsidiam_logo_white.png">
-            <div style="display: flex; position: absolute; bottom: 55%; max-width: 20rem;">
-              <p>
-                © 2020 Obsidiam Investment Group SA. 
-                Parque Empresarial Forum I, San Jose, Costa Rica
-                Phone: +506 4703 0359
+            <div style="display: flow-root; position: absolute; bottom: 55%; max-width: 21rem;">
+              <p style="font-family: RalewayRegular,serif !important; margin: 0">© 2020 Obsidiam Investment Group SA.
               </p>
-            </div>         
+              <p style="font-family: RalewayRegular,serif !important; margin: 0">Parque Empresarial Forum I, San Jose,
+                Costa Rica</p>
+              <p style="font-family: RalewayRegular,serif !important; margin: 0">Phone: <label _ngcontent-rlo-c4=""
+                  class="phone-number">+506 4703 0359</label></p>
+            </div>
           </div>
           <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-            <h4 class="text-uppercase">Platform</h4>
+            <h3 class="f-title f_500 t_color f_size_18 mb_40">Platform</h3>
             <p>Home</p>
             <p>Sign Up</p>
             <p>Sign In</p>
@@ -63,12 +72,12 @@
           </div>
 
           <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-            <h4 class="text-uppercase">Help</h4>
+            <h3 class="f-title f_500 t_color f_size_18 mb_40">Help</h3>
             <p>FAQs</p>
           </div>
 
           <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-            <h4 class="text-uppercase">Legal</h4>
+            <h3 class="f-title f_500 t_color f_size_18 mb_40">Legal</h3>
             <p><i class="fas fa-home mr-3"></i> Privacy Policy</p>
             <p><i class="fas fa-home mr-3"></i> Terms & conditions</p>
             <p><i class="fas fa-home mr-3"></i> SFC / La Arenera Project</p>

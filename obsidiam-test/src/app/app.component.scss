@@ -1,16 +1,9 @@
-.exchange-boxes {
+.convertion-boxes {
     margin: auto;
-    padding-top: 17rem;
+    padding-top: 14rem;
     max-width: 30rem;
     display: flex;
 }
-
-@media screen and (max-width: 600px) {
-    .exchange-boxes {
-      width: 265px;
-      height: 340px;
-    }
-  }
 
 .brand-obsidiam {
     max-width: calc(100% - 362px)!important;
@@ -52,31 +45,42 @@ img {
         }
 }
 
-.img-dollar {
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    right: 56rem;
-    bottom: 33rem;
+h3 {
+    font-size: 18px;
+    margin-bottom: 40px;
 }
 
-.text-usd-btc {
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    right: 45rem;
-    bottom: 33rem;
+.container-over-convertion {
+    display: flex;
+    width: 30%;
+    height: 3rem;
+    min-width: 350px;
+    top: 11rem;
+    position: relative;
+    margin: auto;
     font-size: 24px;
     color: #274067;
-    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,Liberation Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;;
+    .align-over-convertion {
+        display: flex;
+        justify-content: center;
+        .img-over-convertion {
+            width: 40px;
+            height: 40px;
+            display: block;
+            margin: auto;
+        }
+    }
 }
 
-.img-bitcoin {
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    right: 35rem;
-    bottom: 33rem;
+label {
+    text-align: center;
+    font-size: 11px;
+    font-family: RalewayRegular;
+    margin-top: 40px;
+    position: relative;
+    display: block;
+    margin: auto;
+    top: 1rem;
 }
 
 .hr-top {
@@ -86,7 +90,7 @@ img {
     left: 0rem;
     opacity: 0.4;
     color: lightgray;
-    bottom: 65%;   
+    top: 15rem  
 }
 
 .hr-bottom {
@@ -96,19 +100,33 @@ img {
     left: 0rem;
     opacity: 0.4;
     color: lightgray;
-    bottom: 40%;
+    top: 26rem;
 }
 
 .inputs-obsidiam {
-    width: 515px;
+    width: 29rem;
     margin: 8px 0px;
 }
 
-
+.bottom-text {
+    text-align: center;
+    font-size: 11px;
+    font-family: RalewayRegular;
+    bottom: 16rem;
+    left: 24rem;
+    margin: auto;
+    display: flex;
+    padding-top: 6rem;
+}
 .custom-container {
     position: absolute;
     bottom: 0px;
     width: 100%;
     margin: -400px 0px;
     height: calc(100% - 140px);
+}
+
+p {
+    font-family: RalewayRegular,serif !important;
+    color: #7b7b93;
 }
