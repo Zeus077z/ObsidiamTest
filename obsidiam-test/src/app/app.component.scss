@@ -1,6 +1,8 @@
+
+
 .convertion-boxes {
     margin: auto;
-    padding-top: 14rem;
+    padding-top: 2rem;
     max-width: 30rem;
     display: flex;
 }
@@ -15,6 +17,7 @@
 
 .text-center {
     text-align: center;
+    width: auto;
 }
 
 img {
@@ -55,7 +58,6 @@ h3 {
     width: 30%;
     height: 3rem;
     min-width: 350px;
-    top: 11rem;
     position: relative;
     margin: auto;
     font-size: 24px;
@@ -72,7 +74,14 @@ h3 {
     }
 }
 
-label {
+.body-obsidiam {
+    position: absolute;
+    height: 25rem;
+    top: 10rem;
+    width: 100%;
+}
+
+.text-price-bitcoin {
     text-align: center;
     font-size: 11px;
     font-family: RalewayRegular;
@@ -90,7 +99,7 @@ label {
     left: 0rem;
     opacity: 0.4;
     color: lightgray;
-    top: 15rem  
+    top: 4rem  
 }
 
 .hr-bottom {
@@ -100,23 +109,32 @@ label {
     left: 0rem;
     opacity: 0.4;
     color: lightgray;
-    top: 26rem;
+    top: 15rem;
 }
 
 .inputs-obsidiam {
-    width: 29rem;
+    width: 30rem;
     margin: 8px 0px;
 }
+
+ @media only screen and (max-width: 630px) {
+   .inputs-obsidiam {
+        width: 22rem;
+    }
+    .convertion-boxes {
+        max-width: 23rem;
+    }
+ }
+
 
 .bottom-text {
     text-align: center;
     font-size: 11px;
     font-family: RalewayRegular;
-    bottom: 16rem;
     left: 24rem;
     margin: auto;
     display: flex;
-    padding-top: 6rem;
+    padding-top: 5rem;
 }
 .custom-container {
     position: absolute;
@@ -130,3 +148,32 @@ p {
     font-family: RalewayRegular,serif !important;
     color: #7b7b93;
 }
+
+.footer-divs {
+    display: flex;
+}
+
+@media only screen and (max-width: 1000px) {
+    .footer-divs {
+      max-width: 600px;
+      .left-divs-footer {
+          width: 350px;
+      }
+      .right-divs-footer {
+          width: 200px;
+      }
+    }
+  }
+
+@media only screen and (max-width: 768px) {
+    .footer-divs {
+      max-width: 400px;
+      text-align: start;
+      .left-divs-footer {
+          width: 400px;
+      }
+      .right-divs-footer {
+          width: 400px;
+      }
+    }
+  }
