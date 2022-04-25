@@ -1,0 +1,99 @@
+.convertion-boxes {
+    margin: auto;
+    padding-top: 2rem;
+    max-width: 30rem;
+    display: flex;
+}
+
+.text-center {
+    text-align: center;
+    width: auto;
+}
+
+img {
+    position: absolute;
+}
+
+.container-over-convertion {
+    display: flex;
+    width: 30%;
+    height: 3rem;
+    min-width: 350px;
+    position: relative;
+    margin: auto;
+    font-size: 24px;
+    color: #274067;
+    .align-over-convertion {
+        display: flex;
+        justify-content: center;
+        .img-over-convertion {
+            width: 40px;
+            height: 40px;
+            display: block;
+            margin: auto;
+        }
+    }
+}
+
+.body-obsidiam {
+    position: absolute;
+    height: 25rem;
+    top: 10rem;
+    width: 100%;
+}
+
+.text-price-bitcoin {
+    text-align: center;
+    font-size: 11px;
+    font-family: RalewayRegular;
+    margin-top: 40px;
+    position: relative;
+    display: block;
+    margin: auto;
+    top: 1rem;
+}
+
+.hr-top {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    left: 0rem;
+    opacity: 0.4;
+    color: lightgray;
+    top: 4rem  
+}
+
+.hr-bottom {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    left: 0rem;
+    opacity: 0.4;
+    color: lightgray;
+    top: 15rem;
+}
+
+.inputs-obsidiam {
+    width: 30rem;
+    margin: 8px 0px;
+}
+
+ @media only screen and (max-width: 630px) {
+   .inputs-obsidiam {
+        width: 22rem;
+    }
+    .convertion-boxes {
+        max-width: 23rem;
+    }
+ }
+
+
+.bottom-text {
+    text-align: center;
+    font-size: 11px;
+    font-family: RalewayRegular;
+    left: 24rem;
+    margin: auto;
+    display: flex;
+    padding-top: 5rem;
+}

@@ -1,0 +1,35 @@
+.header-obsidiam {
+    background-color: #00D1FF;
+    overflow: hidden;
+    box-sizing: border-box;
+    height: 140px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+        .img-header-1 {
+            margin: 10px 0;
+            max-height: 80px;
+            z-index: 1;
+        }
+        .img-header-2 {
+            max-height: 600px;
+            top: 0rem;
+        }
+        .img-header-3 {
+            width: 330px;
+            right: 75px;
+            top: 13px;
+        }
+}
+
+img {
+    position: absolute;
+}
+
+.brand-obsidiam {
+    max-width: calc(100% - 362px)!important;
+    min-width: 1170px;
+    height: 110px;
+    display: flex;
+    flex-direction: column-reverse;
+}
