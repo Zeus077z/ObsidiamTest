@@ -45,7 +45,18 @@ h3 {
     margin-bottom: 40px;
 }
 
+.container-ubication {
+    display: flow-root;
+    position: absolute;
+    bottom: 55%;
+    max-width: 21rem; 
+}
+
 p {
     font-family: RalewayRegular,serif !important;
     color: #7b7b93;
+}
+
+.p-ubication {
+    margin: 0;
 }
