@@ -17,10 +17,10 @@
   <div class="row convertion-boxes">
     <hr class="hr-top" style="top: 15rem;">
     <div class="col">
-      <input type="number" class="form-control inputs-obsidiam" id="number1" onkeyup="" placeholder="Enter the amount">
+      <input type="text" class="form-control inputs-obsidiam" placeholder="Enter the amount" (keyup)="onKeyUpUSDtoBTC($event)" value="{{ dollars }}">
     </div>
     <div class="col">
-      <input type="number" class="form-control inputs-obsidiam" id="number2" onkeyup="" placeholder="Currency equivalent">
+      <input type="text" class="form-control inputs-obsidiam" placeholder="Currency equivalent" (keyup)="onKeyUpBTCtoUSD($event)" value="{{ bitcoins }}">
     </div>
     <hr class="hr-bottom" style="top: 4rem;">
     <label class="text-price-bitcoin">
