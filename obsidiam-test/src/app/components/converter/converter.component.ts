@@ -6,8 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./converter.component.scss']
 })
 export class ConverterComponent implements OnInit {
-  dollars:number = 0;
-  bitcoins:number = 0;
+  dollars:string = "";
+  bitcoins:string = "";
 
   constructor() { }
 
@@ -17,14 +17,14 @@ export class ConverterComponent implements OnInit {
    Event keyUp to convert the dollars to bitcoins 
     */
    onKeyUpUSDtoBTC (dollar: any): void{
-    this.bitcoins = dollar.target.value !== "" ? dollar.target.value / 60000 : 0;   
+    this.bitcoins = dollar.target.value !== "" ? String(dollar.target.value / 60000) : "";   
    }
 
   /*
    Event keyUp to convert the bitcoins to dollars 
     */
    onKeyUpBTCtoUSD (bitcoins: any): void{
-    this.dollars = bitcoins.target.value !== "" ? bitcoins.target.value * 60000 : 0;   
+    this.dollars = bitcoins.target.value !== "" ? String(bitcoins.target.value * 60000) : "";   
    }
 
 }
